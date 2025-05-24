@@ -1,0 +1,18 @@
+** start of script.js **
+
+function sumAll(arr) {
+  // Destructure and sort the array to get min and max
+  const [min, max] = [Math.min(...arr), Math.max(...arr)];
+
+  // Use a loop to sum all numbers from min to max
+  let sum = 0;
+  for (let i = min; i <= max; i++) {
+    sum += i;
+  }
+
+  return sum;
+}
+
+
+** end of script.js **
+
